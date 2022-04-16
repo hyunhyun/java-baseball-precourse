@@ -14,7 +14,7 @@ public class RuleTest {
     private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
 
     @ParameterizedTest
-    @CsvSource(value = {"123,827,0", "123, 278,1", "456,555,3"})
+    @CsvSource(value = {"123,827,0", "123, 278,1", "456,645,3"})
     @DisplayName("ball 개수 확인")
     void ball(String number, String guess, int expected){
         Rule rule = new RuleImpl();
