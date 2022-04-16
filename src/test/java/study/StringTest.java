@@ -55,7 +55,7 @@ public class StringTest {
         //when
         char c = str.charAt(0);
         //then
-        assertThat(c).isEqualTo("a");
+        assertThat(c).isEqualTo('a');
     }
 
     @Test
